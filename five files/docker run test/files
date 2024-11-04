@@ -1,0 +1,3 @@
+curl -X POST "http://44.202.34.244:9696/score" \    
+     -H "Content-Type: application/json" \      
+     -d '{"job": "management", "duration": 400, "poutcome": "success"}'
